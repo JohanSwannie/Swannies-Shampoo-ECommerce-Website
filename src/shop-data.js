@@ -93,83 +93,83 @@ const SHOP_DATA = [
         name: "Suave Professionals",
         imageUrl:
           "https://u-mercari-images.mercdn.net/photos/m13870432759_1.jpg?1660519221",
-        price: 220,
+        price: 38,
       },
       {
         id: 14,
         name: "Dove",
         imageUrl: "https://i.ebayimg.com/images/g/90sAAOSwpbVbW1m1/s-l500.jpg",
-        price: 280,
+        price: 28,
       },
       {
         id: 15,
         name: "Tresemme Pro Care Curls",
         imageUrl:
           "https://cdn.sanity.io/images/4nopozul/tresemme-staging-us/9540c997670238a501215e35c657fb08e0cf010a-1200x1200.jpg?w=800&h=800&fit=fill&auto=format&q=80&bg=fff",
-        price: 110,
+        price: 36,
       },
       {
         id: 16,
         name: "Nexxus",
         imageUrl:
           "https://m.media-amazon.com/images/I/41Xe+-UeizL._AC_SY350_.jpg",
-        price: 160,
+        price: 41,
       },
       {
         id: 17,
         name: "EV Earth Vibes",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0006/6781/1906/articles/Earth_Vibes_Argan_Oil_Shampoo_Conditioner_Set_4_1024x1024.jpg?v=1539216455",
-        price: 160,
+        price: 32,
       },
       {
         id: 18,
         name: "Loccitane",
         imageUrl:
           "https://i.ebayimg.com/thumbs/images/g/o4MAAOSwjFdjs1z6/s-l300.jpg",
-        price: 160,
+        price: 44,
       },
       {
         id: 19,
         name: "Redken",
         imageUrl:
           "https://www.redken.com/~/media/websites/brands/redken/consumer/images/blog/how-to-choose-the-best-shampoo/thumb.jpg",
-        price: 190,
+        price: 22,
       },
       {
         id: 20,
         name: "Bondi Boost",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/1588/9573/products/320172-33017.jpg?v=1659415602",
-        price: 200,
+        price: 31,
       },
       {
         id: 21,
         name: "Goldwell",
         imageUrl:
           "https://images.ctfassets.net/pi28xy1s107o/15PRMOcAKwGcvYED5BtzSh/52459baefe7e05c403eda0abee68c62c/SEO_Guides_Templates__1440x1200___78_.jpg",
-        price: 200,
+        price: 20,
       },
       {
         id: 22,
         name: "Kerastase",
         imageUrl:
           "https://www.kerastase-usa.com/on/demandware.static/-/Sites-kerastase-master-catalog/default/dw41e91479/2022/chroma-absolu/kerastase-chroma-absolu-color-correction-hair-care-set.jpg",
-        price: 200,
+        price: 26,
       },
       {
         id: 23,
         name: "Alterna",
         imageUrl:
           "https://embed-ssl.wistia.com/deliveries/f8f5ce8facab1637a390daf180f56571.webp?image_crop_resized=1280x720",
-        price: 200,
+        price: 29,
       },
       {
         id: 24,
         name: "Shu Uemura",
         imageUrl:
           "https://www.shuuemuraartofhair-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-shu-master-catalog/default/dwaae0f31e/2022/yubi-blonde/shu-uemura-art-of-hair-yubi-blonde-group3.jpg?sw=465&sh=465&sm=cut&sfrm=jpg&q=70",
-        price: 200,
+        price: 33,
       },
     ],
   },

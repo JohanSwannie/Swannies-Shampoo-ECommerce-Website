@@ -17,8 +17,8 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const Image = styled.img`
-  width: 180px;
-  height: 100px;
+  width: 100px;
+  height: 90px;
   margin-top: 0;
   border: 3px solid #ffa500;
   border-style: double;
