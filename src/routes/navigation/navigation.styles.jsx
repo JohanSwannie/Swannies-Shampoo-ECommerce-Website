@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavigationContainer = styled.div`
-  height: 120px;
+  height: 150px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -17,10 +17,12 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const Image = styled.img`
-  width: 150px;
-  height: 80px;
+  width: 180px;
+  height: 100px;
   margin-top: 0;
-  border-radius: 50%;
+  border: 3px solid #ffa500;
+  border-style: double;
+  border-radius: 20%;
   mix-blend-mode: multiply;
 `;
 
@@ -30,7 +32,7 @@ export const BusinessName = styled.div`
   font-weight: lighter;
   padding: 10px 15px;
   margin-left: 1rem;
-  line-height: 2;
+  line-height: 3;
   opacity: 0.9;
 `;
 
