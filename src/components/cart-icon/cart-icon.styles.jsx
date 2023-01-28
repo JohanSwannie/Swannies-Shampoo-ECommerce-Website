@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CartIconContainer = styled.div`
   width: 45px;
@@ -10,14 +10,15 @@ export const CartIconContainer = styled.div`
   cursor: pointer;
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
   }
 `;
 
 export const ItemCount = styled.span`
   position: absolute;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: bold;
   bottom: 12px;
+  line-height: 0.5;
 `;
