@@ -17,9 +17,10 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const Image = styled.img`
-  width: 160px;
+  width: 150px;
   height: 80px;
   margin-top: 0;
+  border-radius: 50%;
   mix-blend-mode: multiply;
 `;
 
