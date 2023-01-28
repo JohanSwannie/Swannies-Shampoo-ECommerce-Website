@@ -20,8 +20,7 @@ export const Image = styled.img`
   width: 100px;
   height: 90px;
   margin-top: 0;
-  border: 3px solid #ffa500;
-  border-style: double;
+  border: 1.1px solid #ffa500;
   border-radius: 20%;
   mix-blend-mode: multiply;
 `;
