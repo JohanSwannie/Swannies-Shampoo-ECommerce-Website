@@ -24,18 +24,18 @@ export const Image = styled.img`
   border-radius: 20%;
   mix-blend-mode: multiply;
   &:hover {
-    border: 1.1px solid brown;
+    border: 1.7px solid brown;
   }
 `;
 
 export const BusinessName = styled.div`
   font-family: "Stint Ultra Condensed", cursive;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: lighter;
-  text-shadow: 2px 2px #0000;
+  text-shadow: 1px 1px 2px red, 0 0 1em orange, 0 0 0.2rem orange;
   padding: 10px 15px;
   margin-left: 1rem;
-  line-height: 3;
+  line-height: 2.5;
   opacity: 0.9;
 `;
 
