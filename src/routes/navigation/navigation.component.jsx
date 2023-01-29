@@ -1,15 +1,20 @@
 import { Fragment } from "react";
+
 import { Outlet } from "react-router-dom";
+
 import { useSelector } from "react-redux";
 
-import CartIcon from "../../components/cart-icon/cart-icon.component";
-import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
+import { signOutUser } from "../../utils/firebase/firebase.utils";
 
 import { selectCurrentUser } from "../../store/user/user.selector";
+
 import { selectIsCartOpen } from "../../store/cart/cart.selector";
 
+import CartIcon from "../../components/cart-icon/cart-icon.component";
+
+import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
+
 import CompanyLogo from "../../assets/swannies-shampoo-company-logo.PNG";
-import { signOutUser } from "../../utils/firebase/firebase.utils";
 
 import {
   NavigationContainer,
