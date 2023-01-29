@@ -4,14 +4,16 @@ const subColor = "grey";
 const mainColor = "black";
 
 const shrinkLabelStyles = css`
-  top: -15px;
-  font-size: 13px;
+  top: -17px;
+  font-size: 14px;
+  letter-spacing: 3px;
   color: ${mainColor};
 `;
 
 export const FormInputLabel = styled.label`
   color: ${subColor};
-  font-size: 16px;
+  font-size: 17px;
+  letter-spacing: 1.25px;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
