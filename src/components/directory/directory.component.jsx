@@ -7,13 +7,14 @@ const categories = [
     id: 1,
     title: "Men's Shampoo",
     imageUrl:
-      "https://img.freepik.com/premium-photo/two-brown-beige-plastic-shampoo-bottles-floating-studio-background-3d-render_723234-1011.jpg",
+      "https://www.bosshunting.com.au/wp-content/uploads/2022/02/REIN-FEATURE-ROCKS-BH-FEATURE-1200x900.jpg",
     route: "shop/men's shampoo",
   },
   {
     id: 2,
     title: "Women's Shampoo",
-    imageUrl: "https://m.media-amazon.com/images/I/41Cxpmgs3JL._AC_SY350_.jpg",
+    imageUrl:
+      "https://lyko.com/globalassets/product-images/kerastase-blond-absolu-trio-1015-940-0700_1.jpg?ref=596513",
     route: "shop/women's shampoo",
   },
   {
@@ -27,7 +28,7 @@ const categories = [
     id: 4,
     title: "Hair Conditioners",
     imageUrl:
-      "https://images.askmen.com/1080x540/2021/02/05-013537-best_beard_conditioners.jpg",
+      "https://media.gq.com/photos/5e3dbace8208a40009e9ab47/master/pass/conditioners.jpg",
     route: "shop/hair conditioners",
   },
 ];
