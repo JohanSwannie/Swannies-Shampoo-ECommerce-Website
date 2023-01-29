@@ -32,6 +32,7 @@ export const BusinessName = styled.div`
   font-family: "Stint Ultra Condensed", cursive;
   font-size: 40px;
   font-weight: lighter;
+  text-shadow: 2px 2px #0000;
   padding: 10px 15px;
   margin-left: 1rem;
   line-height: 3;
