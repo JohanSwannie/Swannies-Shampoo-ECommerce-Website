@@ -13,7 +13,7 @@ const shrinkLabelStyles = css`
 export const FormInputLabel = styled.label`
   color: ${subColor};
   font-size: 17px;
-  letter-spacing: 1.25px;
+  letter-spacing: 0.25px;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
