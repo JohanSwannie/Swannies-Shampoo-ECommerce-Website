@@ -23,6 +23,9 @@ export const Image = styled.img`
   border: 1.1px solid #ffa500;
   border-radius: 20%;
   mix-blend-mode: multiply;
+  &:hover {
+    border: 1.1px solid brown;
+  }
 `;
 
 export const BusinessName = styled.div`
@@ -48,4 +51,8 @@ export const NavLinks = styled.div`
 export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  &:hover {
+    color: chocolate;
+    font-weight: bolder;
+  }
 `;
