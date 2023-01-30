@@ -6,16 +6,16 @@ import {
 
 import { rootReducer } from "./root-reducer";
 
-const loggerMiddleware = (store) => (next) => (action) => {
-  if (!action.type) {
-    return next(action);
+const loggerMiddleware = (store) => (next1) => (action1) => {
+  if (!action1.type) {
+    return next1(action1);
   }
 
-  console.log("type: ", action.type);
-  console.log("payload: ", action.payload);
+  console.log("type: ", action1.type);
+  console.log("payload: ", action1.payload);
   console.log("currentState: ", store.getState());
 
-  next(action);
+  next1(action1);
 
   console.log("next state: ", store.getState());
 };
