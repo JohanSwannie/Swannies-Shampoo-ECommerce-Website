@@ -1,4 +1,4 @@
-import { useState, useEffect, Fragment } from "react";
+import { useState, useEffect, Fragment, useLayoutEffect } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
@@ -21,6 +21,10 @@ const Category = () => {
   useEffect(() => {
     setProducts(categoriesMap[category]);
   }, [category, categoriesMap]);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <Fragment>
