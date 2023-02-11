@@ -1,7 +1,9 @@
 import { FC } from 'react';
+
 import { useSelector, useDispatch } from 'react-redux';
 
 import { selectCartItems } from '../../store/cart/cart.selector';
+
 import {
   addItemToCart,
   clearItemFromCart,
