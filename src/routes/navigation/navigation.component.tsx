@@ -16,6 +16,7 @@ import {
   NavLinks,
   NavLink,
   LogoContainer,
+  BusinessName,
 } from './navigation.styles';
 
 const Navigation = () => {
@@ -31,8 +32,11 @@ const Navigation = () => {
         <LogoContainer to='/'>
           <HomeLogo className='logo' />
         </LogoContainer>
+        <BusinessName>
+          Swannie's Shampoo Mecca - Shampoos are forever!
+        </BusinessName>
         <NavLinks>
-          <NavLink to='/shop'>SHOP</NavLink>
+          <NavLink to='/shop'>SHOP</NavLink> 
 
           {currentUser ? (
             <NavLink as='span' onClick={signOutUser}>
