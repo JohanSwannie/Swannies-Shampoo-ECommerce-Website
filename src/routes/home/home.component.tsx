@@ -1,24 +1,14 @@
-import { useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { Outlet } from 'react-router-dom';
 
-import CategoriesPreview from '../categories-preview/categories-preview.component';
-import Category from '../category/category.component';
-import { fetchCategoriesStart } from '../../store/categories/category.action';
+import Directory from '../../components/directory/directory.component';
 
-const Shop = () => {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchCategoriesStart());
-  }, []);
-
+const Home = () => {
   return (
-    <Routes>
-      <Route index element={<CategoriesPreview />} />
-      <Route path=':category' element={<Category />} />
-    </Routes>
+    <div>
+      <Directory />
+      <Outlet />
+    </div>
   );
 };
 
-export default Shop;
+export default Home;
